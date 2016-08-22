@@ -1,6 +1,6 @@
 var rework = require('rework');
 var calc = require('rework-calc');
-var calc = require('rework-plugin-url');
+var url = require('rework-plugin-url');
 var vars = require('rework-vars')();
 var variant = require('rework-font-variant');
 var prefixes = require('autoprefixer')().rework;
