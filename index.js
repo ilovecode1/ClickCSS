@@ -18,13 +18,13 @@ function ClickCSS (stylesheet, rework)
 		.use(calc)
 		.use(vars())
 		.use(pseudos)
-    	.use(variant)
-    	.use(prefixes)
-    	.use(customMedia)
-    	.use(limits)
-    	.use(colors)
+    		.use(variant)
+    		.use(prefixes)
+    		.use(customMedia)
+    		.use(limits)
+    		.use(colors)
 		.use(rework.url(function(url){
    	 		return url;
   		}))
-		.toString();
+
 }
