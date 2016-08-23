@@ -25,6 +25,6 @@ function ClickCSS (stylesheet, rework)
     		.use(colors)
 		.use(rework.url(function(url){
    	 		return url;
-  	}))
+  	}));
 
 }
