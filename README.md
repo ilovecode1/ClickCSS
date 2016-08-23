@@ -1,6 +1,12 @@
 #Install
 
 ```
+npm install ClickCSS
+```
+
+or
+
+```
 git clone https://github.com/ilovecode1/ClickCSS.git
 cd ClickCSS
 npm install
