@@ -11,7 +11,7 @@ npm install
 ```
 var ClickCSS = require('ClickCSS');
 var fs = require('fs');
-var css = fs.readFileSync('notprocessed.css', 'utf8').toString();
+var css = fs.readFileSync('notprocessedyet.ccss', 'utf8').toString();
 
 var processed = rework(css)
   .use(ClickCSS)
