@@ -10,6 +10,11 @@ var colors = require('rework-plugin-colors');
 
 module.exports = ClickCSS;
 
+/**
+* @param {Object} stylesheet
+* @param {Object} rework
+**/
+
 function ClickCSS (stylesheet, rework)
 	var css = rework(cssString)
 		.use(calc)
